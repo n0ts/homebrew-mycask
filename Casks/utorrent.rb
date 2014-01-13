@@ -1,5 +1,5 @@
 class Utorrent < Cask
-  url 'http://www.utorrent.com/downloads/complete/os/osx'
+  url 'http://download-new.utorrent.com/endpoint/utmac/os/osx/track/stable/uTorrent.dmg'
   homepage 'http://www.utorrent.com'
   version 'latest'
   no_checksum
