@@ -3,4 +3,5 @@ class WondersharePlayer < Cask
   homepage 'http://www.wondershare.com/video-player/'
   version 'latest'
   no_checksum
+  link 'Wondershare Player.app'
 end
