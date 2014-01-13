@@ -3,4 +3,5 @@ class NikePlusConnect < Cask
   homepage 'https://secure-nikeplus.nike.com/plus/'
   version 'latest'
   no_checksum
+  install 'Nike+Connect_new.pkg'
 end
