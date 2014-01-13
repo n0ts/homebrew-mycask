@@ -5,4 +5,3 @@ class Arranger < Cask
   no_checksum
   link 'Arranger.app'
 end
-
