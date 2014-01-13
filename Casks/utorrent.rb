@@ -3,4 +3,5 @@ class Utorrent < Cask
   homepage 'http://www.utorrent.com'
   version 'latest'
   no_checksum
+  install 'uTorrent-Installer.app'
 end
