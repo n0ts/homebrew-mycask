@@ -3,4 +3,5 @@ class Paparazzi < Cask
   homepage 'http://derailer.org/paparazzi/'
   version '0.6.7'
   no_checksum
+  link 'Paparazzi!.app'
 end
