@@ -3,6 +3,6 @@ class Arranger < Cask
   homepage 'http://bucketomac.de/arranger/arranger/'
   version '1.4'
   no_checksum
-  link 'Arrapger.app'
+  link 'Arranger.app'
 end
 
