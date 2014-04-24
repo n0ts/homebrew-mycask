@@ -13,7 +13,7 @@ project.
 * f-kux: f.lux (http://justgetflux.com)
 * iphone-config-utility: iPhone Configuration Utility (http://support.apple.com/downloads/#iphone)
 * mac-zip4-win: MacZip4Win (http://ynomura.com/home/?page_id=116)
-* mercurial.rb: Mercurial (http://mercurial.selenic.com)
+* mercurial: Mercurial (http://mercurial.selenic.com)
 * nike-plus-connect: Nike+ Connect (https://secure-nikeplus.nike.com/plus/setup)
 * paparazzi: Paparazzi! (http://derailer.org/paparazzi/)
 * pro-apps-quicktime-codecs: ProApps QuickTime Codes (http://support.apple.com/kb/dl1396)
