@@ -2,6 +2,6 @@ class BarkForGrowl < Cask
   url 'http://barkplug.in/downloads/Bark%201.1.zip'
   homepage 'http://barkplug.in'
   version '1.1'
-  no_checksum
+  sha256 :no_check
   install 'Bark.pkg'
 end
