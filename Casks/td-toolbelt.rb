@@ -10,8 +10,9 @@ class TdToolbelt < Cask
 
   before_install do
     system 'mv', "#{caskroom_path}/#{version}/mac", "#{caskroom_path}/#{version}/#{title}.pkg"
-    system '/usr/bin/sudo', '-E', '--', '/usr/sbin/installer', '-pkg', "#{caskroom_path}/#{version}/#{title}.pkg", '-target', '/'
-   end
+  end
+
+  install "#{title}.pkg"
 
   uninstall :files => [
     '/usr/local/td',
