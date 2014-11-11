@@ -12,8 +12,6 @@ class GoogleCloudSdk < Cask
   caveats do
     "#{title} is installed at #{staged_path}/#{title}.
 
-Please add your profile path at #{staged_path}/#{title}/bin.
-
 Add your profile.
 
 for bash users
