@@ -7,6 +7,7 @@ class SlackMultipleTeams < Cask
   homepage 'http://slack.com'
 
   after_install do
-    system '/bin/ln', '-nsf', '--', "#{destination_path}/Slack.app", "#{File.expand_path('~')}/Applications/Slack beta.app"
+    system '/bin/ln', '-nsf', '--',
+      "#{destination_path}/Slack.app", "#{File.expand_path('~')}/Applications/Slack beta.app"
   end
 end

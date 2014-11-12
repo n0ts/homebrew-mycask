@@ -7,6 +7,7 @@ class Mercurial < Cask
   version '3.0.1'
 
   install "mercurial-#{version}_20140606-py2.7-macosx10.9/mercurial-#{version}+20140606-py2.7-macosx10.9.mpkg"
+
   caveats do
     os_version_only '10.9'
   end
