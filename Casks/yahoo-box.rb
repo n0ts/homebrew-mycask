@@ -1,5 +1,5 @@
 # coding: utf-8
-class YahooBox < Cask
+cask :v1 => 'yahoo-box' do
   version :latest
   sha256 :no_check
 
@@ -7,6 +7,6 @@ class YahooBox < Cask
   homepage 'http://info.box.yahoo.co.jp/'
   license :other
 
-  link 'Yahoo!ボックス.app'
+  app 'Yahoo!ボックス.app'
 end
 

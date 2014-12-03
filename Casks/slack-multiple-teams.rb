@@ -1,4 +1,4 @@
-class SlackMultipleTeams < Cask
+cask :v1 => 'slack-multiple-teams' do
   version '0.60'
   sha256 '9245059fdad7914ec911eea121bcca5ccf716ea7b2fbeadc707e618692db89a1'
 
@@ -6,7 +6,7 @@ class SlackMultipleTeams < Cask
   appcast 'https://rink.hockeyapp.net/apps/06bd6493684f65a3b8f47aca92c9006e'
   homepage 'http://slack.com'
 
-  after_install do
+  postflight do
     system '/bin/ln', '-nsf', '--',
       "#{destination_path}/Slack.app", "#{File.expand_path('~')}/Applications/Slack beta.app"
   end

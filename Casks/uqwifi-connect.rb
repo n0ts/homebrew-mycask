@@ -1,5 +1,5 @@
 # coding: utf-8
-class UqwifiConnect < Cask
+cask :v1 => 'uqwifi-connect' do
   version :latest
   sha256 :no_check
 
@@ -7,5 +7,5 @@ class UqwifiConnect < Cask
   homepage 'http://wi2.co.jp/jp/uq/connect/'
   license :other
 
-  link 'UQ Wi-Fiコネクト.app'
+  app 'UQ Wi-Fiコネクト.app'
 end
