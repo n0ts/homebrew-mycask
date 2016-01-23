@@ -1,5 +1,5 @@
 # coding: utf-8
-cask :v1 => 'uqwifi-connect' do
+cask 'uqwifi-connect' do
   version :latest
   sha256 :no_check
 

@@ -1,4 +1,4 @@
-cask :v1 => 'mercurial' do
+cask 'mercurial' do
   version '3.0.1'
   sha256 :no_check
 

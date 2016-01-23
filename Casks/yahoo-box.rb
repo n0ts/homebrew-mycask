@@ -1,5 +1,5 @@
 #encoding: utf-8
-cask :v1 => 'yahoo-box' do
+cask 'yahoo-box' do
   version :latest
   sha256 :no_check
 
