@@ -4,7 +4,6 @@ cask :v1 => 'google-cloud-sdk' do
 
   url 'https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz'
   homepage 'https://cloud.google.com/sdk/'
-  license :apache
 
   installer :script => 'google-cloud-sdk/install.sh',
             :args => %w{--usage-reporting false --bash-completion false --path-update false --rc-path false},
