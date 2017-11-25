@@ -1,4 +1,3 @@
-# coding: utf-8
 cask 'uqwifi-connect' do
   version :latest
   sha256 :no_check
