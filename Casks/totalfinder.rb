@@ -1,11 +1,6 @@
 cask 'totalfinder' do
-  if MacOS.version <= :yosemite
-    version '1.9.3'
-    sha256 'cde59340d0bfcbca36208a1b0ea0d811cf54355b42220214586477514039b2e2'
-  else
-    version '1.10.7'
-    sha256 'cfeda67f1859cdff056c3d4c2b075a8e5c2006c9cc5d0e1424e9c84eb939f27b'
-  end
+  version '1.12.3'
+  sha256 '5c9e580d5d536b3976b5ae1cce1a412f0ee06b6a6405a0c53f8052e8adf0a2d5'
 
   url "http://downloads.binaryage.com/TotalFinder-#{version}.dmg"
   name 'TotalFinder'
